@@ -47,7 +47,7 @@ define('LOGGED_IN_SALT', $_ENV['LOGGED_IN_SALT']);
 define('NONCE_SALT', $_ENV['NONCE_SALT']);
 
 // When developing a WordPress Multisite locally, ensure that this constant is set.
-if (getenv('FRAMEWORK') == 'wordpress-multisite') {
+if (getenv('FRAMEWORK') == 'wordpress_network') {
   define('WP_ALLOW_MULTISITE', true);
 }
 /**#@-*/
